@@ -1,0 +1,35 @@
+html{
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+*, *::before, *after{
+  box-sizing:inherit;
+}
+img{
+  width:100%;
+}
+body{
+  margin:0;
+}
+.logo{
+  width:10%;
+  padding:1em 1em 1em 1em;
+}
+h1{
+  float:right;
+  font-size:1rem;
+  padding-right:2em;
+}
+.topart{
+  background-color: lightgrey;
+}
+.navigation{
+  display:inline-block;
+  list-style-type:none;
+  text-align:center;
+}
+nav ol{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
