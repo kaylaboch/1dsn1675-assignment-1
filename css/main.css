@@ -18,18 +18,53 @@ body{
 h1{
   float:right;
   font-size:1rem;
-  padding-right:2em;
+  padding-right:7em;
+  padding-top:1em;
 }
 .topart{
   background-color: lightgrey;
 }
 .navigation{
-  display:inline-block;
   list-style-type:none;
   text-align:center;
+  font-weight:normal;
+  padding:1em;
+  font-size:12px;
 }
 nav ol{
   list-style-type:none;
   margin:0;
-  padding:0;
+  padding:2em;
+}
+nav a{
+  display:inline-block;
+  text-decoration:none;
+  color:black;
+  padding:5px;
+}
+nav li{
+  display:inline-block;
+}
+a:hover{
+  color:purple;
+}
+.navv{
+  background-color:grey;
+}
+.up{
+  position:relative;
+  gradient:
+}
+.eye{
+  position:absolute;
+  text-align:center;
+  display:block;
+  bottom:.5em;
+  color:lightgrey;
+  font-size:12px;
+}
+h2{
+  font-size:1rem;
+  text-decoration: none;
+  text-align:center;
 }
