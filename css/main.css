@@ -7,6 +7,7 @@ html{
 }
 img{
   width:100%;
+  margin:0;
 }
 body{
   margin:0;
@@ -14,12 +15,14 @@ body{
 .logo{
   width:10%;
   padding:1em 1em 1em 1em;
+  float:left;
 }
 h1{
   float:right;
   font-size:1rem;
   padding-right:7em;
   padding-top:1em;
+  display:inline;
 }
 .topart{
   background-color: lightgrey;
@@ -28,8 +31,7 @@ h1{
   list-style-type:none;
   text-align:center;
   font-weight:normal;
-  padding:1em;
-  font-size:12px;
+  clear:both;
 }
 nav ol{
   list-style-type:none;
@@ -45,15 +47,25 @@ nav a{
 nav li{
   display:inline-block;
 }
+ol li{
+  display:inline;
+  width:25%;
+  margin:0em;
+  padding:0em;
+  font-size:10px;
+}
 a:hover{
   color:purple;
 }
 .navv{
-  background-color:grey;
+  background-color:#889fa7;
 }
 .up{
   position:relative;
   gradient:
+}
+.mainimage{
+  opacity:0.5%;
 }
 .eye{
   position:absolute;
@@ -67,4 +79,96 @@ h2{
   font-size:1rem;
   text-decoration: none;
   text-align:center;
+  list-style-type: none;
+  font-weight:bold;
+  font-size:1rem;
+}
+a{
+  text-decoration:none;
+  color:black;
+}
+.giza{
+  display:block;
+  width:90%;
+  padding:1em;
+}
+h3{
+  text-align:left;
+  font-weight:bold;
+  font-size:15px;
+  margin:1em;
+}
+li{
+  text-decoration:none;
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+.button{
+  padding-top:.5em;
+  padding-bottom:.5em;
+  font-size:1rem;
+  border-radius:10px;
+  background-color:#b9c47f;
+  text-align:center;
+  display:block;
+  margin:1em;
+}
+.but{
+  text-align:center;
+  font-weight:bold;
+  margin:0;
+}
+.babylon{
+  width: 90%;
+  padding:1em;
+}
+.artemis{
+  width:90%;
+  padding:1em;
+}
+.zeus{
+  width:90%;
+  padding:1em;
+}
+.mauso{
+  width:90%;
+  padding:1em;
+}
+.rhodes{
+  width:90%;
+  padding:1em;
+}
+.pharos{
+  width:90%;
+  padding:1em;
+}
+.div1{
+  padding:0;
+  margin:0;
+}
+.button1{
+  padding:.5em;
+  margin-bottom:1em;
+  margin-left:2em;
+  font-size:1rem;
+  border-radius:10px;
+  background-color:#889fa7;
+  text-align:center;
+  display:inline-block;
+  width:35%;
+}
+.button2{
+  padding:.5em;
+  margin-bottom:1em;
+  margin-right:2em;
+  font-size:1rem;
+  border-radius:10px;
+  background-color:#b9c47f;
+  text-align:center;
+  display:inline-block;
+  width:35%;
+}
+.atlantis{
+  position:relative;
 }
