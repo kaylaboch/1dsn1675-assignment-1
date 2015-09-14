@@ -189,7 +189,8 @@ li{
   text-align:center;
   color:white;
   margin:0;
-  left:5em;
+  width:100%
+  display:block;
   text-shadow: 3px 2px 4px rgba(0,0,0,.5)
 }
 .button3{
@@ -208,4 +209,10 @@ li{
 }
 footer{
   background-color:#889fa7;
+}
+.adress{
+  font-family: 'Satisfy', cursive;
+}
+.f{
+  font-family: 'Satisfy', cursive;
 }
