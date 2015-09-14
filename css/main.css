@@ -2,8 +2,8 @@ html{
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
 }
-*, *::before, *after{
-  box-sizing:inherit;
+*, *::before, *::after{
+  box-sizing: inherit;
 }
 img{
   width:100%;
@@ -63,11 +63,8 @@ a:hover{
 }
 .up{
   position:relative;
-  gradient:
 }
-.mainimage{
-  opacity:0.5%;
-}
+
 .eye{
   position:absolute;
   text-align:center;
@@ -179,9 +176,7 @@ li{
 .atlan{
   position:relative;
 }
-.atlantis{
-  opacity:0.5%;
-}
+
 .cap{
   position:absolute;
   top:40%;
@@ -189,7 +184,7 @@ li{
   text-align:center;
   color:white;
   margin:0;
-  width:100%
+  width:100%;
   display:block;
   text-shadow: 3px 2px 4px rgba(0,0,0,.5)
 }
@@ -204,15 +199,21 @@ li{
   border-radius:10px;
   display:block;
   width:50%;
-  background-color:#b9c47f;
   font-family: 'Satisfy', cursive;
 }
 footer{
   background-color:#889fa7;
+  margin:0;
+  padding:0;
+  margin-bottom:0;
 }
 .adress{
   font-family: 'Satisfy', cursive;
 }
 .f{
   font-family: 'Satisfy', cursive;
+}
+body{
+  margin:0;
+  margin-bottom:0;
 }
