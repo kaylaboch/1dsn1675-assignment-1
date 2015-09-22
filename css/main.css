@@ -1,3 +1,8 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
 html{
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
@@ -217,4 +222,48 @@ footer{
 body{
   margin:0;
   margin-bottom:0;
+}
+@media only screen and (min-width: 30em){
+  .logo{
+    width: 20%;
+    display:block;
+    margin-top: .5em;
+  }
+  .museum{
+    font-size: 1.5rem;
+    float:right;
+    padding-right:1em;
+    text-align:center;
+    display:inline-block;
+    margin-top:.5em;
+  }
+  h1{
+    text-align:center;
+    display:inline-block;
+  }
+  nav li{
+    font-size: .9rem;
+    padding: .3em;
+  }
+  h2{
+    font-size: 1.3rem;
+  }
+  h3{
+    font-size: 1rem;
+  }
+  dl{
+    font-size: 1rem;
+  }
+  .button3{
+    font-size: 1rem;
+  }
+  .p{
+    font-size: 1rem;
+  }
+  .cap{
+    font-size:1rem;
+  }
+}
+@media only screen and (min-width: 40em){
+  
 }
