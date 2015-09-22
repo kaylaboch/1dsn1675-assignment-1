@@ -344,3 +344,66 @@ p{
   margin-left:2.5em;
 }
 }
+@media only screen and (min-width: 55em){
+.logo{
+  width:15%;
+}
+nav li{
+  font-size:1.2em;
+  }
+.giza{
+  float:left;
+  clear:both;
+  margin:0;
+  width:50%;
+}
+
+
+.button{
+  clear:both;
+  margin:0;
+  width:40%;
+  margin-left:30%;
+  margin-right:30%;
+}
+.babylon{
+  float:left;
+  margin:0;
+  clear:both;
+  width:50%;
+}
+
+.artemis{
+  float:left;
+  margin:0;
+  clear:both;
+  width:50%;
+}
+
+.zeus{
+  float:left;
+  margin:0;
+  clear:both;
+  width:50%;
+}
+
+.mauso{
+  float:left;
+  margin:0;
+  clear:both;
+  width:50%;
+}
+.rhodes{
+  float:left;
+  margin:0;
+  clear:both;
+  width:50%;
+}
+.pharos{
+  float:left;
+  margin:0;
+  clear:both;
+  width:50%;
+}
+}
+}
