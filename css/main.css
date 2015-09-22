@@ -100,7 +100,7 @@ a{
 h3{
   text-align:left;
   font-weight:bold;
-  font-size:15px;
+  font-size:1em;
   margin:1em;
   font-family: 'Satisfy', cursive;
 }
@@ -120,6 +120,7 @@ li{
   display:block;
   margin:1em;
   font-family: 'Satisfy', cursive;
+  width:50%;
 }
 .but{
   text-align:center;
@@ -225,7 +226,7 @@ body{
 }
 @media only screen and (min-width: 30em){
   .logo{
-    width: 20%;
+    width: 15%;
     display:block;
     margin-top: .5em;
   }
@@ -240,6 +241,7 @@ body{
   h1{
     text-align:center;
     display:inline-block;
+    font-size: 2rem;
   }
   nav li{
     font-size: .9rem;
@@ -264,6 +266,73 @@ body{
     font-size:1rem;
   }
 }
-@media only screen and (min-width: 40em){
-  
+@media only screen and (min-width: 50em){
+.logo{
+  width:20%;
+}
+.giza{
+  width:60%;
+  margin-left:20%;
+  margin-right:20%;
+}
+.babylon{
+  width:60%;
+  margin-left:20%;
+  margin-right:20%;
+}
+.artemis{
+  width:60%;
+  margin-left:20%;
+  margin-right:20%;
+}
+.zeus{
+  width:60%;
+  margin-left:20%;
+  margin-right:20%;
+}
+.mauso{
+  width:60%;
+  margin-left:20%;
+  margin-right:20%;
+}
+.rhodes{
+  width:60%;
+  margin-left:20%;
+  margin-right:20%;
+}
+.pharos{
+  width:60%;
+  margin-left:20%;
+  margin-right:20%;
+}
+h3{
+  text-align:center;
+}
+.button{
+  width:50%;
+  margin-left:25%;
+  margin-right:25%;
+}
+.eye{
+  width:70%;
+  margin-left:15%;
+  margin-right:15%;
+}
+.button1{
+  width:25%;
+  margin-left:25%
+}
+.button2{
+  width:25%;
+  margin-right:20%;
+}
+p{
+  text-align:center;
+}
+.fot{
+  text-align:center;
+}
+.l{
+  text-align:center;
+}
 }
