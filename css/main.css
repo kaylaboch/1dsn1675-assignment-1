@@ -330,9 +330,17 @@ p{
   text-align:center;
 }
 .fot{
-  text-align:center;
+  text-align:left;
 }
 .l{
-  text-align:center;
+  text-align:left;
+}
+.adress{
+  text-align:left;
+  margin-left:2.5em;
+}
+.copyright{
+  text-align:left;
+  margin-left:2.5em;
 }
 }
