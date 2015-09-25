@@ -489,3 +489,59 @@ h2{
   margin-left:20%;
 }
 }
+@media only screen and (min-width: 60em){
+.left{
+  float: left;
+  clear: left;
+  width: 50%;
+  margin:0;
+  padding:0;
+}
+.right{
+  float: right;
+  width: 50%;
+  margin:0;
+  padding:0;
+}
+.come{
+  clear:both;
+}
+.giza{
+  width:100%;
+}
+.babylon{
+  width:100%;
+}
+.artemis{
+  width:100%;
+}
+.zeus{
+  width:100%;
+}
+.mauso{
+  width:100%;
+}
+.rhodes{
+  width:100%;
+}
+.pharos{
+  width:100%;
+}
+.button{
+  width:50%;
+  margin-left:25%;
+  margin-right:25%;
+}
+.l{
+  text-align:center;
+}
+.fot{
+  text-align:center;
+}
+.copyright{
+  text-align:center;
+}
+.adress{
+  text-align:center;
+}
+}
